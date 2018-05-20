@@ -131,7 +131,7 @@ export class PGP {
       return signed.data
     } else {
       throw new Error(
-        'No PrivateKey in the OpenPGP keyring for the email address: ' + email
+        'PGP.js:134 ' + 'E145 ' + 'No PrivateKey in the OpenPGP keyring for the email address: ' + email
       )
     }
   }
@@ -182,7 +182,7 @@ export class PGP {
       return armoredMessage
     } else {
       throw new Error(
-        'No PrivateKey in the OpenPGP keyring for the email address: ' + email
+        'PGP.js:185 ' + 'E146 ' + 'No PrivateKey in the OpenPGP keyring for the email address: ' + email
       )
     }
   }
