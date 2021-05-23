@@ -51,7 +51,7 @@
     "src/index.d.ts"
   ],
   "dependencies": {
-    "async-lock": "^1.1.0",
+    "async-lock": "^1.3.0",
     "babel-runtime": "^6.26.0",
     "buffercursor": "0.0.12",
     "clean-git-ref": "1.0.3",
